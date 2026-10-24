@@ -8,8 +8,8 @@ public class Customer {
         this.name = name;
         this.order = new Order();  // Collaborating with Order class
     }
-
-    public void addMenuItemToOrder(MenuItem item) {
+    // Test Git tracking
+    public void addToOrder(MenuItem item) {
         order.addItem(item);  // Collaborating with Order to add items
     }
 
